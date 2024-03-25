@@ -29,11 +29,10 @@
 }
 
 .resume-maindiv h3::before {
-  content: "\2192"; Arrow character
+  content: "\2192";
   margin-right: 5px;
 }
 
-/* Style for the experience card */
 .experience-card {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -42,7 +41,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.experience-card > div {
+.experience-card div {
   margin-bottom: 10px;
 }
 

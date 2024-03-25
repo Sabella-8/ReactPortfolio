@@ -59,16 +59,15 @@ ul li {
   font-size: 1.5em;
 }
 
-/* Style for links */
 .navigation a {
-  text-decoration: none; /* Remove underline */
-  color: #646cff; /* Link color */
-  font-weight: bold; /* Make text bold */
-  padding: 10px 20px; /* Add padding around links */
+  text-decoration: none;
+  color: #646cff;
+  font-weight: bold;
+  padding: 10px 20px;
 }
 
 .navigation a:hover {
-  background-color: #f0f0f0; /* Change background color on hover */
+  background-color: #f0f0f0;
 }
 
 @media screen and (max-width: 900px) {
@@ -79,7 +78,7 @@ ul li {
 
   .hamburger-menu {
     display: block;
-    margin-left: auto; /* Move hamburger menu to the right */
+    margin-left: auto;
   }
 
   .navigation ul {
