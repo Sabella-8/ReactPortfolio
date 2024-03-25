@@ -1,0 +1,29 @@
+.footer {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  text-align: center;
+}
+p a {
+  font-size: 20px;
+  padding: 0;
+}
+.navfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.navfooter a {
+  margin: 0 10px;
+}
+
+.navfooter img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.navfooter img:hover {
+  transform: scale(1.2);
+}

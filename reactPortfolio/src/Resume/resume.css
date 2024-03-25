@@ -1,0 +1,55 @@
+.resume-maindiv {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.resume-maindiv h1 {
+  color: #007bff;
+}
+
+.resume-maindiv h2 {
+  color: #333;
+}
+
+.resume-maindiv .number {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-style: italic;
+  color: #007bff;
+}
+
+.resume-maindiv section {
+  margin-bottom: 20px;
+}
+
+.resume-maindiv p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.resume-maindiv h3::before {
+  content: "\2192"; Arrow character
+  margin-right: 5px;
+}
+
+/* Style for the experience card */
+.experience-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card > div {
+  margin-bottom: 10px;
+}
+
+.experience-card h3 {
+  margin-top: 0;
+}
+
+.experience-card p {
+  margin: 0;
+}
